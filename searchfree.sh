@@ -1,0 +1,1 @@
+comm -23 <(sort licenceNAV4.txt) <(sort realNAV4.txt) |sed -e 's/\t*//g' > freeobjects.txt
